@@ -1,5 +1,5 @@
 #include "../include/Action.h"
-
+extern Restaurant* backup;
 #ifndef ACTION_H_
 #define ACTION_H_
 
@@ -68,7 +68,8 @@ public:
         string ans = "open " + tableId ;
         for(int i=0;i<customers.size();i++){
             ans = ans + " " + (customers.at(i))->toString();
-        }
+            }
+            ans = ans + this.getStatus();
             return ans;
     }
 
@@ -105,7 +106,8 @@ public:
     }
     }
     std::string toString() const{
-        string ans = "order " + tableId;
+        string ans = "order " + tableId + " " + this.getStatus();
+        return ans;
     }
 private:
     const int tableId;
@@ -152,7 +154,7 @@ public:
     }
 
     std::string toString() const{
-        string ans = "move " + srcTable + " " +  dstTable + " " + id ;
+        string ans = "move " + srcTable + " " +  dstTable + " " + id + " " + this.getStatus();
         return ans;
     }
     }
@@ -187,7 +189,7 @@ public:
         }
     }
     std::string toString() const{
-        string ans =  "close " + tableId;
+        string ans =  "close " + tableId + " " + this.getStatus();
         return ans;
     }
 private:
@@ -212,7 +214,7 @@ public:
     }
 
     std::string toString() const {
-        return "closeall" ;
+        return "closeall" + " " + "completed";
 
     }
 private:
@@ -236,7 +238,7 @@ public:
     }
 
     std::string toString() const {
-        return "menu" ;
+        return "menu" + " completed";
     }
 private:
 };
@@ -251,7 +253,6 @@ public:
         string status = "close";
         if(c_table.isOpen()){
             status = "open";
-        }
         std:: cout<< "Table " + tableId + " status:" + status + '/n' + "customers:" <<;
         vector<Customer*> c_customerList = c_table.getCustomers() ;
          std :: cout<< "Customers:" <<endl;
@@ -264,12 +265,19 @@ public:
              int tempId = ((c_table.getOrders()).at(i)).first ;
               std :: cout<< c_dish.getName() + " " + c_dish.getPrice() + "NIS " + tempId <<endl;
          }
-
+         }
+            std :: cout << "Current Bill: " + c_table.getBill() <<endl;
+         }
+         else{
+           std:: cout<< "Table " + tableId + " status:" + status <<;
+           }
          this.complete();
         }
 
 
-    std::string toString() const;
+    std::string toString() const{
+            return "status " + tableId + " " +  this.getStatus();
+        }
 private:
     const int tableId;
 };
@@ -277,9 +285,19 @@ private:
 
 class PrintActionsLog : public BaseAction {
 public:
-    PrintActionsLog();
-    void act(Restaurant &restaurant);
-    std::string toString() const;
+    PrintActionsLog(){}
+    void act(Restaurant &restaurant){
+        string ans = "";
+       vector<BaseAction*> temp_vec = restaurant.getActionsLog();
+       for (int i=0 ; i<temp_vec.size() ; i++){
+           ans = *(temp_vec.at(i)).toString() + '/n';
+           }
+           std :: cout << ans << ;
+       }
+
+    std::string toString() const {
+        return "log " + "completed";
+        }
 private:
 };
 

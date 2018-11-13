@@ -12,7 +12,6 @@ typedef std::pair<int, Dish> OrderPair;
 class Table{
 public:
     Table(int t_capacity):capacity(t_capacity){
-        capacity = t_capacity;
         open = false;
     }
     int getCapacity() const{

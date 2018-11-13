@@ -1,4 +1,4 @@
-download
+//download
 #include "../include/Customer.h"
 
 #ifndef CUSTOMER_H_
@@ -34,7 +34,7 @@ private:
 class VegetarianCustomer : public Customer {
 public:
 	VegetarianCustomer(std::string name, int id){
-	    new Customer(name,id);
+	    Customer(name,id);
 	    vegBevId = -1;
 	    vegDishId = -1;
 	    firstOrder = true;
@@ -89,7 +89,7 @@ private:
 class CheapCustomer : public Customer {
 public:
 	CheapCustomer(std::string name, int id){
-	        new Customer(name,id);
+	        Customer(name,id);
 	        firstOrder = true;
 	}
     std::vector<int> order(const std::vector<Dish> &menu){
@@ -117,7 +117,7 @@ private:
 class SpicyCustomer : public Customer {
 public:
 	SpicyCustomer(std::string name, int id){
-	    new Customer(name,id);
+	    Customer(name,id);
 	    this.spicyBevId = -1;
 	    this.firstOrder = false;
 	}
@@ -161,7 +161,7 @@ private:
 class AlchoholicCustomer : public Customer {
 public:
 	AlchoholicCustomer(std::string name, int id){
-	    new Customer(name,id) ;
+	    Customer(name,id) ;
         firstOrder = true;
 	}
 

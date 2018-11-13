@@ -14,7 +14,7 @@ public:
     int getId() const;
 private:
     const std::string name;
-    const int id
+    const int id;
 };
 
 
@@ -47,7 +47,7 @@ private:
 
 class AlchoholicCustomer : public Customer {//רק משקאות אלכהולים . מתחיל עם המשקה הכי זול וממשיך בסדרה עולה לפי מחיר
 public:
-	AlchoholicCustomer(std::string name, int id)
+	AlchoholicCustomer(std::string name, int id);
     std::vector<int> order(const std::vector<Dish> &menu);
     std::string toString() const;
 private:

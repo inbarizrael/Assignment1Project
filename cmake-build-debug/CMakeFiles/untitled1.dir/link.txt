@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/untitled1.dir/src/Main.cpp.o CMakeFiles/untitled1.dir/src/Customer.cpp.o  -o untitled1 

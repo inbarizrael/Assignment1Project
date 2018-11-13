@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/users/studs/bsc/2019/inbariz/CLionProjects/Assignment1Project/include/Customer.h
+vector
+-
+string
+-
+Dish.h
+/users/studs/bsc/2019/inbariz/CLionProjects/Assignment1Project/include/Dish.h
+
+/users/studs/bsc/2019/inbariz/CLionProjects/Assignment1Project/src/Customer.cpp
+../include/Customer.h
+/users/studs/bsc/2019/inbariz/CLionProjects/Assignment1Project/include/Customer.h
+vector
+-
+string
+-
+Dish.h
+/users/studs/bsc/2019/inbariz/CLionProjects/Assignment1Project/src/Dish.h
+
