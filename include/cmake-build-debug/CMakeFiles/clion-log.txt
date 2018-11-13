@@ -1,0 +1,6 @@
+"C:\Users\TEMP\AppData\Roaming\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" C:\Users\TEMP\Desktop\untitled1\include
+-- Configuring done
+CMake Error: CMake can not determine linker language for target: include
+CMake Error: Cannot determine link language for target "include".
+-- Generating done
+-- Build files have been written to: C:/Users/TEMP/Desktop/untitled1/include/cmake-build-debug

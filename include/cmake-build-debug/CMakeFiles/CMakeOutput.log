@@ -1,0 +1,101 @@
+The system is: Windows - 10.0.17134 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.14.26428/bin/Hostx86/x86/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.14.26433 for x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.14.26433.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "C:/Users/TEMP/Desktop/untitled1/include/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/TEMP/Desktop/untitled1/include/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/nologo" "cmTC_d650f\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_d650f.dir\build.make /nologo -L                  CMakeFiles\cmTC_d650f.dir\build
+Building C object CMakeFiles/cmTC_d650f.dir/testCCompiler.c.obj
+	C:\PROGRA~2\MICROS~4\2017\ENTERP~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @C:\Users\TEMP\AppData\Local\Temp\nm55FB.tmp
+testCCompiler.c
+Linking C executable cmTC_d650f.exe
+	"C:\Users\TEMP\AppData\Roaming\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_d650f.dir --manifests  -- C:\PROGRA~2\MICROS~4\2017\ENTERP~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_d650f.dir\objects1.rsp @C:\Users\TEMP\AppData\Local\Temp\nm56C7.tmp
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/TEMP/Desktop/untitled1/include/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/nologo" "cmTC_391da\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_391da.dir\build.make /nologo -L                  CMakeFiles\cmTC_391da.dir\build
+Building C object CMakeFiles/cmTC_391da.dir/CMakeCCompilerABI.c.obj
+	C:\PROGRA~2\MICROS~4\2017\ENTERP~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @C:\Users\TEMP\AppData\Local\Temp\nm5D4E.tmp
+CMakeCCompilerABI.c
+Linking C executable cmTC_391da.exe
+	"C:\Users\TEMP\AppData\Roaming\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_391da.dir --manifests  -- C:\PROGRA~2\MICROS~4\2017\ENTERP~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_391da.dir\objects1.rsp @C:\Users\TEMP\AppData\Local\Temp\nm5DFB.tmp
+
+
+
+
+Detecting C [] compiler features compiled with the following output:
+Change Dir: C:/Users/TEMP/Desktop/untitled1/include/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/nologo" "cmTC_e962d\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_e962d.dir\build.make /nologo -L                  CMakeFiles\cmTC_e962d.dir\build
+Building C object CMakeFiles/cmTC_e962d.dir/feature_tests.c.obj
+	C:\PROGRA~2\MICROS~4\2017\ENTERP~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @C:\Users\TEMP\AppData\Local\Temp\nm6666.tmp
+feature_tests.c
+Linking C executable cmTC_e962d.exe
+	"C:\Users\TEMP\AppData\Roaming\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_e962d.dir --manifests  -- C:\PROGRA~2\MICROS~4\2017\ENTERP~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_e962d.dir\objects1.rsp @C:\Users\TEMP\AppData\Local\Temp\nm66C5.tmp
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_variadic_macros
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.14.26428/bin/Hostx86/x86/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.14.26433 for x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.14.26433.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/TEMP/Desktop/untitled1/include/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/TEMP/Desktop/untitled1/include/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/nologo" "cmTC_769cb\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_769cb.dir\build.make /nologo -L                  CMakeFiles\cmTC_769cb.dir\build
+Building CXX object CMakeFiles/cmTC_769cb.dir/testCXXCompiler.cxx.obj
+	C:\PROGRA~2\MICROS~4\2017\ENTERP~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @C:\Users\TEMP\AppData\Local\Temp\nm4D7B.tmp
+testCXXCompiler.cxx
+Linking CXX executable cmTC_769cb.exe
+	"C:\Users\TEMP\AppData\Roaming\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_769cb.dir --manifests  -- C:\PROGRA~2\MICROS~4\2017\ENTERP~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_769cb.dir\objects1.rsp @C:\Users\TEMP\AppData\Local\Temp\nm4E47.tmp
+
+

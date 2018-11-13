@@ -1,0 +1,3 @@
+C:/Users/TEMP/Desktop/untitled1/include/cmake-build-debug/CMakeFiles/include.dir
+C:/Users/TEMP/Desktop/untitled1/include/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/TEMP/Desktop/untitled1/include/cmake-build-debug/CMakeFiles/rebuild_cache.dir
